@@ -26,7 +26,7 @@ public class Calculadora3Teste {
         assertTrue(calc3.subtrair(-1,1)==-2);
     }
     
-    @Test(expected=ArithmeticException.class) //inseri essa Excessao Aritmetica para casos de divisao por zero
+    @Test
     public void testarDivisao(){
         Calculadora3 calc3 = new Calculadora3();
         assertEquals(calc3.dividir(3,2),1);
